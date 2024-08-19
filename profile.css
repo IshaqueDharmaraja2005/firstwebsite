@@ -1,0 +1,102 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #FFEBD4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-container {
+  background-color: #B4D6CD 
+  ;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  color: #333;
+}
+
+.header p {
+  font-size: 1.2em;
+  color: #777;
+  margin: 0;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.profile-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.profile-image img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-me, .details {
+  flex: 2;
+  text-align: left;
+  padding: 10px;
+}
+
+.about-me h2, .details h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-me p, .details p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.details p strong {
+  color: #333;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-links a img {
+  width: 24px;
+  height: 24px;
+}
+
+.image-credit {
+  font-size: 0.8em;
+  color: #777;
+  margin-top: 15px;
+}
+
+.image-credit a {
+  color: #555;
+  text-decoration: none;
+}
